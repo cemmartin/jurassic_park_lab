@@ -17,6 +17,7 @@ class Park {
         this.collectionOfDinos.splice(indexOfDinos, 1)
     }
 
+
 }
 
 

@@ -40,7 +40,7 @@ describe("Park", function () {
     assert.deepStrictEqual(actual, ["Stegosaurus"]);
   });
 
-  it("should be able to find the dinosaur that attracts the most visitors", function () {
+  it("should be able to find the dinosaur that attracts the most visitors", function () { //I will fully admit that Olly did most of this in an attempt to explain it to me bc I was quite lost
     const dino1 = new Dinosaur("Pterodactylus", "herbivore", 15);
     const dino2 = new Dinosaur("trex", "herbivore", 30);
     const dino3 = new Dinosaur("Stegosaurus", "herbivore", 25);
